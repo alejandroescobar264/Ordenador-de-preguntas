@@ -7,6 +7,10 @@
 
 using namespace std;
 
+///
+    // Este es un pequeño programa escrito en C++ que permite ordenar las preguntas que se copian en el archivo "Preguntas.txt". Elimina las preguntas repetidas y les asigna números a cada una.
+///
+
 struct Question {
     int number;
     string text;
