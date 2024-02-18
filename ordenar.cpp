@@ -107,7 +107,7 @@ int main() {
 
     cout << endl << "Preguntas ordenadas y escritas en el archivo 'preguntas_ordenadas.txt'." << endl;
     cout << "  |--> Cantidad total de preguntas únicas: " << uniqueQuestionsCount << " --> " << uniquePercentage << "%" << endl;
-    cout << "  |-->Cantidad de preguntas repetidas encontradas: " << repeatedQuestionsCount << " --> " << repeatedPercentage << "%" << endl;
+    cout << "  |--> Cantidad de preguntas repetidas encontradas: " << repeatedQuestionsCount << " --> " << repeatedPercentage << "%" << endl;
 
     inputFile.close();
     outputFile.close();
